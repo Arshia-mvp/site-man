@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.li{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    font-size: 25px;
+    color: blue;
+}
+.card--title{
+    position: absolute;
+    top: 5px;
+    left: 525px;
+}
+.card--images{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid blue;
+    top: 60px;
+    left: 450px;
+    box-shadow: 5px 1px black;
+}
+.card--description{
+    position: absolute;
+    top: 463px;
+    left: 400px;
+    color: rgb(145, 41, 41);
+}
+.nav-link{
+    display: none;
+    transform: translate(530px,675px);
+}
+.box-5{
+    width: 1303px;
+    height: 125px;
+    background-color: rgba(255, 228, 196, 0.22);
+    position: absolute;
+    top: 666px;
+    border: 5px solid blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 5px 2px black;
+    left: -3px;
+}
+.card-1--title{
+    position: absolute;
+    top: 795px;
+    left: 525px;
+}
+.card-1--description{
+    position: absolute;
+    left: 210px;
+    top: 835px;
+}
+.card-1--images{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 1350px;
+    left: 130px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.card-2--images{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 1350px;
+    left: 670px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.card-3--images{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 1780px;
+    left: 130px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.card-4--images{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 1780px;
+    left: 670px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.box{
+    width: 1303px;
+    height: 150px;
+    background-color: beige;
+    position: absolute;
+    top: 2200px;
+    border-radius: 10px;
+}
+.card-2--title{
+    position: absolute;
+    top: 2350px;
+    left: 600px;
+}
+.card-5--images{
+    position: absolute;
+    top: 2383px;
+    left: 20px;
+}
+.card-6--images{
+    width: 1050px;
+    height: 410px;
+    position: absolute;
+    top: 2800px;
+    left: 140px;
+    border-radius: 10px;
+}
+.card-7--images{
+    position: absolute;
+    left: 140px;
+    top: 3225px;
+    width: 500px;
+    height: 425px;
+    border-radius: 10px;
+}
+.card-8--images{
+    position: absolute;
+    top: 3210px;
+    left: 670px;
+    height: 475px;
+    width: 580px;
+    border-radius: 50px;
+}
+.box-1{
+    width: 1303px;
+    height: 150px;
+    background-color: beige;
+    position: absolute;
+    top: 3680px;
+    border-radius: 10px;
+}
+.card-3--title{
+    position: absolute;
+    top: 3850px;
+    left: 570px;
+}
+.card-2--description{
+    position: absolute;
+    top: 3900px;
+    left: 10px;
+    font-size: 25px;
+}
+.progress{
+    margin-top: 3875px;
+    margin-left: 75px;
+}
+.card-3--description{
+    position: absolute;
+    top: 3940px;
+    left: 10px;
+    font-size: 25px;
+    
+}
+.progress-1{
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.card-4--description{
+    position: absolute;
+    top: 3990px;
+    left: 10px;
+    font-size: 25px;
+}
+.progress-2{
+    margin-top: 27px;
+    margin-left: 130px;
+}
+.card-5--description{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: 25px
+}
+.progress-3{
+    margin-top: 27px;
+    margin-left: 135px;
+}
+.card-6--description{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.progress-4{
+    margin-top: -43px;
+    margin-left: 107px;
+}
+.card-7--description{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.progress-5{
+    margin-top: -45px;
+    margin-left: 110px;
+}
+.card-8--description{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.progress-6{
+    margin-top: -43px;
+    margin-left: 110px;
+}
+.icon-link{
+    font-size: 18px;
+    position: absolute;
+    left: 620px;
+    top: 45px;
+    color: blue;
+}
+.card-5--title{
+    position: absolute;
+    left: 625px;
+    top: 30px;
+}
+.card-9--images{
+    position: absolute;
+    top: 100px;
+    left: 135px;
+    width: 1020px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.nav-link{
+    display: none;
+    transform: translate(450px,614px);
+}
+.card-6--title{
+    position: absolute;
+    left: 600px;
+    top: 830px;
+}
+.card-9--description{
+    position: absolute;
+    top: 880px;
+}
+.box-2{
+    width: 1303px;
+    height: 170px;
+    background-color: beige;
+    position: absolute;
+    top: 650px;   
+    border-radius: 10px
+}
+.card-10--description{
+    position: absolute;
+    top: 1140px;
+}
+.card-11--description{
+    position: absolute;
+    top: 1430px;
+}
+.card-10--images{
+    position: absolute;
+    top: 1730px;
+    width: 620px;
+    height: 370px;
+    left: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-11--images{
+    position: absolute;
+    top: 1730px;
+    width: 620px;
+    height: 370px;
+    left: 680px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-12--images{
+    position: absolute;
+    top: 2135px;
+    width: 620px;
+    height: 370px;
+    left: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-13--images{
+    position: absolute;
+    top: 2135px;
+    width: 620px;
+    height: 370px;
+    left: 680px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-7--title{
+    position: absolute;
+    top: 2725px;
+    left: 600px;
+}
+.box-3{
+    width: 1303px;
+    height: 170px;
+    background-color: beige;
+    position: absolute;
+    top: 2535px;
+}
+.card-14--images{
+    position: absolute;
+    top: 2800px;
+    width: 620px;
+    height: 370px;
+    left: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-15--images{
+    position: absolute;
+    top: 2800px;
+    width: 620px;
+    height: 370px;
+    left: 680px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-16--images{
+    position: absolute;
+    top: 3210px;
+    width: 620px;
+    height: 370px;
+    left: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-17--images{
+    position: absolute;
+    top: 3210px;
+    width: 620px;
+    height: 370px;
+    left: 680px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.video{
+    position: absolute;
+    top: 3620px;
+    width: 900px;
+    left: 210px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-18--images{
+    position: absolute;
+    top: 4170px;
+    width: 620px;
+    height: 370px;
+    left: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-19--images{
+    position: absolute;
+    top: 4170px;
+    width: 620px;
+    height: 370px;
+    left: 680px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.card-8--title{
+    position: absolute;
+    top: 4760px;
+    left: 580px;
+}
+.box-4{
+    width: 1303px;
+    height: 170px;
+    background-color: beige;
+    position: absolute;
+    top: 4570px;
+    border-radius: 10px;
+}
+.progress-7{
+    position: absolute;
+    top: 4813px;
+    left: 120px;
+}
+.card-12--description{
+    position: absolute;
+    top: 4808px;
+    font-size: 20px;
+    left: 10px;
+}
+.card-13--description{
+    position: absolute;
+    top: 4860px;
+    font-size: 20px;
+    left: 83px;
+}
+.card-14--description{
+    position: absolute;
+    top: 4865px;
+    left: 180px;
+}
+.card-15--description{
+    position: absolute;
+    top: 4860px;
+    left: 310px;
+    font-size: 20px;
+}
+.card-16--description{
+    position: absolute;
+    top: 4865px;
+    left: 375px;
+}
+.card-17--description{
+    position: absolute;
+    top: 4860px;
+    left: 500px;
+    font-size: 20px;
+}
+.card-18--description{
+    position: absolute;
+    top: 4865px;
+    left: 607px;
+}
+.card-19--description{
+    position: absolute;
+    top: 4860px;
+    font-size: 20px;
+    left: 700px;
+}
+.card-20--description{
+    position: absolute;
+    top: 4865px;
+    left: 785px;
+}
+.card-21--description{
+    position: absolute;
+    top: 4860px;
+    font-size: 20px;
+    left: 965px;
+}
+.card-22--description{
+    position: absolute;
+    top: 4865px;
+    left: 1035px;
+}
+.progress-8{
+    position: absolute;
+    top: 4920px;
+    left: 140px;
+}
+.card-23--description{
+    position: absolute;
+    top: 4915px;
+    font-size: 20px;
+    left: 15px;
+}
+.progress-9{
+    position: absolute;
+    top: 4980px;
+    left: 110px;
+}
+.card-24--description{
+    position: absolute;
+    top: 4977px;
+    font-size: 20px;
+    left: 27px;
+}
+.progress-10{
+    position: absolute;
+    top: 5050px;
+    left: 120px;
+}
+.card-25--description{
+    position: absolute;
+    top: 5048px;
+    font-size: 20px;
+    left: 35px;
+}
+.icon-link-1{
+    position: absolute;
+    left: 607px;
+    font-size: 18px;
+    top: 90px;
+    color: blue;
+}
